@@ -1,16 +1,92 @@
 ---
+import Layout from "../layout/Layouts.astro";
+import Hero from "../components/Hero.astro";
+import Card from "../components/Card.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Inicio - Igualdad de Género en la ETP">
+	<Hero
+		badge="Inclusión y Futuro Laboral"
+		title="Igualdad de Género en la Educación Técnico-Profesional"
+		subtitle="Rompiendo brechas y construyendo equidad en las especialidades industriales, comerciales y tecnológicas de la formación técnica."
+		ctaText="Explorar Desafíos Actuales"
+		ctaLink="/desafios"
+	/>
+
+	<section aria-labelledby="intro-title">
+		<h2 id="intro-title">Por qué abordar la equidad en la ETP</h2>
+		<p>
+			La Educación Técnico-Profesional (ETP) representa un motor decisivo
+			para la empleabilidad y la movilidad social. Sin embargo, persisten
+			fuertes patrones de segregación según el género que limitan las
+			aspiraciones de las y mejan las brechas salariales en el mercado del
+			trabajo.
+		</p>
+	</section>
+
+	<section aria-labelledby="stats-title">
+		<h2 id="stats-title">Especialidades y Representación</h2>
+		<div class="grid-cards">
+			<Card
+				icon="⚡"
+				tag="Alta masculinización"
+				title="Electricidad y Metalmecánica"
+				description="Menos del 12% de la matrícula en especialidades industriales corresponde a mujeres, debido a sesgos culturales y falta de referentes."
+			/>
+			<Card
+				icon="💻"
+				tag="Brecha Digital"
+				title="Tecnología y Telecomunicaciones"
+				description="A pesar del crecimiento de las TIC, la presencia femenina en programación y redes en nivel técnico no supera el 18%."
+			/>
+			<Card
+				icon="🩺"
+				tag="Alta feminización"
+				title="Salud y Atención Social"
+				description="Más del 80% de los estudiantes en especialidades de cuidado y educación parvularia son mujeres, asociadas históricamente al trabajo no remunerado."
+			/>
+			<Card
+				icon="📈"
+				tag="Desafío Salarial"
+				title="Impacto en los Ingresos"
+				description="La segregación formativa se traduce en una brecha de ingresos futura de hasta un 25% entre egresados de distintas especialidades."
+			/>
+		</div>
+	</section>
+
+	<section class="banner-action" aria-labelledby="action-title">
+		<h2 id="action-title">Hacia un aprendizaje libre de sesgos</h2>
+		<p>
+			Garantizar que jóvenes de cualquier género elijan su vocación con
+			libertad exige transformar las prácticas pedagógicas, la orientación
+			vocacional y las alianzas con el sector productivo.
+		</p>
+		<a href="/propuestas" class="link-button"
+			>Ver Propuestas de Cambio &rarr;</a
+		>
+	</section>
+</Layout>
+
+<style>
+	.banner-action {
+		background-color: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius);
+		padding: 2rem;
+		margin-top: 2rem;
+		text-align: center;
+	}
+
+	.link-button {
+		display: inline-block;
+		margin-top: 1rem;
+		color: var(--color-secondary);
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 1.05rem;
+	}
+
+	.link-button:hover {
+		text-decoration: underline;
+	}
+</style>

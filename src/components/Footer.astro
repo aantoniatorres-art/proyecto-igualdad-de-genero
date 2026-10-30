@@ -1,0 +1,79 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-info">
+            <h3>Igualdad en la Educación Técnico-Profesional</h3>
+            <p>
+                Promoviendo la equidad de género, la inclusión y el
+                desmantelamiento de estereotipos en especialidades técnicas.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/desafios">Desafíos Actuales</a></li>
+                <li><a href="/propuestas">Propuestas y Recursos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>
+            &copy; {currentYear} Proyecto Educativo ETP. Desarrollado bajo estándares
+            de accesibilidad y compromiso social.
+        </p>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        background-color: #020617; /* Fondo Slate 950 muy oscuro para contraste */
+        border-top: 1px solid var(--color-border);
+        color: var(--color-text-muted);
+        margin-top: 3rem;
+        padding: 2.5rem 1.5rem 1rem 1.5rem;
+    }
+
+    .footer-container {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-info h3,
+    .footer-links h4 {
+        color: var(--color-text);
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-links ul {
+        list-style: none;
+    }
+
+    .footer-links a {
+        color: var(--color-text-muted);
+        text-decoration: none;
+        line-height: 2;
+        transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover {
+        color: var(--color-primary);
+    }
+
+    .footer-bottom {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding-top: 1rem;
+        border-top: 1px solid var(--color-border);
+        text-align: center;
+        font-size: 0.875rem;
+    }
+</style>

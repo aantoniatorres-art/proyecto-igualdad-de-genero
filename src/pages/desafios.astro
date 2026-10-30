@@ -1,0 +1,98 @@
+---
+import Layout from "../layout/Layouts.astro";
+import Hero from "../components/Hero.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout
+    title="Desafíos Actuales - Igualdad ETP"
+    description="Análisis de los estereotipos de género, barreras culturales y segregación en especialidades técnicas."
+>
+    <Hero
+        badge="Diagnóstico"
+        title="Desafíos Actuales en la Formación Técnica"
+        subtitle="Identificar y analizar los obstáculos culturales e institucionales que perpetúan la brecha de género en las especialidades ETP."
+    />
+
+    <section aria-labelledby="barriers-title">
+        <h2 id="barriers-title">Principales Barreras Identificadas</h2>
+
+        <div class="grid-cards">
+            <Card
+                icon="🧠"
+                tag="Social"
+                title="Estereotipos Culturales Prematuros"
+                description="Desde la infancia se asocian destrezas mecánicas al género masculino y tareas de cuidado al femenino, condicionando la elección vocacional en 1º y 2º medio."
+            />
+            <Card
+                icon="🛠️"
+                tag="Infraestructura"
+                title="Espacios no Adaptados"
+                description="Muchos talleres y laboratorios técnicos carecen de baños independientes o equipamiento ergonómico inclusivo en los establecimientos."
+            />
+            <Card
+                icon="🏢"
+                tag="Laboral"
+                title="Prácticas Profesionales Sesgadas"
+                description="Dificultades adicionadas para estudiantes mujeres al buscar prácticas en minería, construcción y mecánica por preconceptos de las empresas."
+            />
+            <Card
+                icon="📚"
+                tag="Educativo"
+                title="Material Didáctico Masculinizado"
+                description="Manuales técnicos y textos escolares exhiben mayoritariamente imágenes y referencias masculinas en roles de liderazgo técnico."
+            />
+        </div>
+    </section>
+
+    <section class="content-block" aria-labelledby="data-title">
+        <h2 id="data-title">Segregación Horizontal por Especialidad</h2>
+        <p>
+            La segregación horizontal ocurre cuando un género se concentra de
+            manera desproporcionada en ciertos sectores de la formación. En el
+            contexto de la ETP:
+        </p>
+
+        <ul class="styled-list">
+            <li>
+                <strong>Sector Industrial y Minero:</strong> Baja participación de
+                alumnas debido a la falsa noción de que se requiere fuerza física
+                sobre competencia técnica.
+            </li>
+            <li>
+                <strong>Sector Administración y Comercio:</strong> Distribución más
+                paritaria, pero con baja llegada de mujeres a puestos de decisión
+                o innovación digital.
+            </li>
+            <li>
+                <strong>Sector Servicios y Salud:</strong> Fuerte sesgo femenino con
+                menor valoración salarial promedio en el mercado laboral comparado
+                al sector industrial.
+            </li>
+        </ul>
+    </section>
+</Layout>
+
+<style>
+    .content-block {
+        background-color: var(--color-surface);
+        padding: 2rem;
+        border-radius: var(--radius);
+        border: 1px solid var(--color-border);
+        margin-top: 2rem;
+    }
+
+    .styled-list {
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .styled-list li {
+        margin-bottom: 0.75rem;
+        color: var(--color-text-muted);
+    }
+
+    .styled-list strong {
+        color: var(--color-primary);
+    }
+</style>

@@ -1,0 +1,255 @@
+herramienta: gemini
+
+prompt 1: necesito que me des el paso a paso y el codigo sobre este tema; 5. Igualdad de género en la
+educación técnico-profesional
+
+Sitio informativo sobre estereotipos de género,
+oportunidades y participación en distintas
+especialidades técnicas.
+
+Inicio, Desafíos
+actuales, Propuestas de
+cambio    Requisitos técnicos
+El proyecto deberá cumplir con los siguientes requisitos mínimos:
+
+4. Uso de inteligencia artificial
+Cada pareja deberá utilizar herramientas de IA como apoyo para planificar, generar, corregir y mejorar su proyecto.
+Registro obligatorio de prompts
+
+Ejemplo de registro:
+Herramienta: ChatGPT
+Prompt 1: Ayúdame a organizar la estructura de un proyecto Astro para desarrollar un sitio web sobre mujeres
+referentes en tecnología. Debe contener tres páginas, cuatro componentes y un layout.
+Pages: Implementar al menos 3 páginas diferentes, con contenido propio.
+Components: Crear e implementar al menos 4 componentes reutilizables.
+Layouts: Implementar al menos 1 layout, utilizado para mantener una estructura común entre las páginas.
+Styles: Aplicar estilos CSS para definir colores, tipografías, distribución de elementos y presentación visual.
+Diseño responsive: Adaptar el sitio a dispositivos móviles y computadores.
+Navegación: Incorporar un menú de navegación funcional entre las 3 páginas.
+Accesibilidad: Utilizar etiquetas semánticas, textos alternativos en imágenes y colores que permitan una
+lectura adecuada.
+Organización: Mantener una estructura de carpetas y archivos ordenada, siguiendo las convenciones de Astro. mi-proyecto/
+├── public/
+│ └── images/
+├── src/
+│ ├── components/
+│ │ ├── Navbar.astro
+│ │ ├── Footer.astro
+│ │ ├── Card.astro
+│ │ └── Hero.astro
+│ ├── layouts/
+│ │ └── Layout.astro
+│ ├── pages/
+│ │ ├── index.astro
+│ │ ├── tema.astro
+│ │ └── recursos.astro
+│ └── styles/
+│ └── global.css
+├── prompts.txt
+├── package.json
+└── astro.config.mjs   Criterio 3 puntos 2 puntos 1 punto 0 puntos
+1. Pages Implementa 3 páginas
+funcionales, con
+contenido propio y
+diferenciado.
+
+Implementa 3
+páginas, pero una
+presenta errores o
+contenido incompleto.
+
+Implementa solo 1 o
+2 páginas
+funcionales.
+
+No implementa
+páginas
+funcionales.
+
+2. Components Implementa al menos
+4 componentes
+correctamente
+integrados y
+reutilizables.
+
+Implementa 3
+componentes
+correctamente.
+
+Implementa 1 o 2
+componentes.
+
+No implementa
+componentes.
+
+3. Layout Implementa un layout
+funcional y lo utiliza en
+las 3 páginas.
+
+Implementa un layout
+funcional, pero no lo
+utiliza en todas las
+páginas.
+
+Crea un layout, pero
+presenta errores de
+implementación.
+
+No implementa
+un layout.
+
+4. Styles y
+responsive
+
+Aplica CSS coherente
+y el sitio se adapta
+correctamente a
+diferentes pantallas.
+
+Presenta estilos
+adecuados, pero
+algunos elementos
+no se adaptan
+correctamente.
+
+Presenta estilos
+básicos y problemas
+importantes de
+visualización.
+
+No aplica estilos
+CSS funcionales.
+
+5. Navegación y
+funcionamiento
+
+Todas las páginas y
+enlaces internos
+funcionan
+correctamente.
+
+Presenta problemas
+menores de
+navegación o
+funcionamiento.
+
+Presenta varios
+enlaces o elementos
+que no funcionan.
+
+La navegación
+no funciona.
+
+6. Accesibilidad Utiliza HTML
+semántico, textos
+alternativos y colores
+que facilitan la lectura.
+
+Cumple con dos de
+los tres aspectos.
+
+Cumple con uno de
+los tres aspectos.
+
+No evidencia
+criterios básicos
+de accesibilidad.
+
+7. Contenido y
+temática
+
+Desarrolla contenido
+claro, pertinente,
+respetuoso y
+suficiente sobre la
+temática seleccionada.
+
+El contenido es
+pertinente, pero
+algunas secciones
+están poco
+desarrolladas.
+
+El contenido es
+escaso o presenta
+poca relación con la
+temática.
+
+No presenta
+contenido
+pertinente.
+
+8. Organización
+del proyecto
+
+Organiza
+correctamente pages,
+components, layouts,
+styles y demás
+archivos.
+
+La estructura es
+funcional, pero
+presenta problemas
+menores de
+organización.
+
+Presenta una
+estructura
+desordenada que
+dificulta comprender
+el proyecto.
+
+No mantiene una
+estructura
+reconocible de
+Astro.
+
+9. Registro de IA Incluye prompts.txt
+con el registro
+completo, ordenado e
+identificado de los
+prompts utilizados.
+
+Incluye el archivo,
+pero presenta
+omisiones menores o
+problemas de
+organización.
+
+Incluye un registro
+muy incompleto de
+los prompts.
+
+No entrega
+prompts.txt o
+está vacío.
+
+10. GitHub y
+entrega
+Publica el proyecto
+completo, actualizado,
+ejecutable y envía la
+invitación de
+
+Publica el proyecto,
+pero presenta un
+incumplimiento
+menor en la entrega.
+Publica un
+repositorio
+incompleto o con
+problemas
+importantes.
+
+No entrega un
+repositorio
+accesible.
+
+Criterio 3 puntos 2 puntos 1 punto 0 puntos
+
+colaboración al
+docente. Esa es toda la informacion que necesitas para desarrollar este proyecto de manera, profesional e interactiva 
+
+
+
